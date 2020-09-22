@@ -1,0 +1,30 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bordo {
+    background-color: black;
+    height: 50px;
+}
+
+.bianco {
+    background-color: white;
+    height: 50px;
+}
+
+.rosso-scuro {
+    background-color: #8B0000;
+    height: 50px;
+}
+
+.rosso {
+    background-color: red;
+    height: 50px;
+}
